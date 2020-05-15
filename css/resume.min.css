@@ -36,6 +36,11 @@ h2 {
 .dev-icons {
   font-size: 3rem;
 }
+
+.list-social-icons{
+  display: flex;
+}
+
 .list-social-icons a {
   color: #495057;
 }
@@ -108,10 +113,28 @@ section.resume-section {
 section.resume-section .resume-item .resume-date {
   min-width: none;
 }
-@media (min-width: 768px) {
-  section.resume-section {
-    min-height: 100vh;
+
+/* @media (max-width:520px){
+  h1.mb-0.name{
+    font-size:4rem;
   }
+} */
+
+@media (max-width:375px){
+  h1.mb-0.name{
+    font-size:2.5rem;
+  }
+}
+
+@media (min-width:376px) and (max-width:767px){
+  h1.mb-0.name{
+    font-size:3.5rem;
+  }
+}
+@media (min-width: 768px) {
+  /* section.resume-section {
+    min-height: 100vh;
+  } */
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
   }

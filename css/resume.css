@@ -42,12 +42,14 @@ h2 {
   font-size: 3rem;
 }
 
-.list-social-icons a {
-  color: #495057;
+.list-social-icons{
+  display: flex;
+  justify-content: space-evenly;
 }
 
+
 .list-social-icons a:hover {
-  color: #bd5d38;
+  text-decoration: none;
 }
 
 .list-social-icons a .fa-lg {
@@ -122,10 +124,23 @@ section.resume-section .resume-item .resume-date {
   min-width: none;
 }
 
-@media (min-width: 768px) {
-  section.resume-section {
-    min-height: 100vh;
+
+@media (max-width:375px){
+  h1.mb-0.name{
+    font-size:2.5rem;
   }
+}
+
+@media (min-width:376px) and (max-width:768px){
+  h1.mb-0.name{
+    font-size:3.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  /* section.resume-section {
+    min-height: 100vh;
+  } */
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
   }
@@ -155,3 +170,4 @@ a:focus,
 a:active {
   color: #824027;
 }
+
