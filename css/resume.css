@@ -131,7 +131,7 @@ section.resume-section .resume-item .resume-date {
   }
 }
 
-@media (min-width:376px) and (max-width:768px){
+@media (min-width:376px) and (max-width:767px){
   h1.mb-0.name{
     font-size:3.5rem;
   }
