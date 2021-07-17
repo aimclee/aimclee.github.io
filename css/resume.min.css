@@ -40,6 +40,9 @@ h2 {
 .list-social-icons{
   display: flex;
 }
+.list-social-icons img{
+margin: 0.5rem;
+}
 
 .list-social-icons a {
   color: #495057;

@@ -44,8 +44,12 @@ h2 {
 
 .list-social-icons{
   display: flex;
-  justify-content: space-evenly;
 }
+
+.list-social-icons img{
+  margin: 0.5rem;
+  }
+  
 
 
 .list-social-icons a:hover {
